@@ -2,11 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
-/*
-	Hielo by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Reset */
 
@@ -1682,8 +1677,8 @@
 			}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		line-height: 1.5;
+		font-weight: 200;
+		line-height: 1.2;
 		margin: 0 0 1rem 0;
 	}
 
@@ -1693,7 +1688,8 @@
 		}
 
 	h2 {
-		font-size: 1.75rem;
+		font-size: 1.2rem;
+    	
 	}
 
 	h3 {
@@ -1813,7 +1809,7 @@
 	}
 
 		.box .image.fit {
-			margin: 0;
+			margin: 100px;
 			border-radius: 0;
 		}
 
@@ -1829,7 +1825,7 @@
 			text-transform: uppercase;
 			font-size: .75rem;
 			font-weight: 300;
-			margin: 0 0 .25rem 0;
+			margin: 50px 0 .25rem 0;
 			padding: 0 0 .75rem 0;
 			letter-spacing: .25rem;
 		}
@@ -1837,7 +1833,7 @@
 			.box header p:after {
 				content: '';
 				position: absolute;
-				margin: auto;
+				margin: 50px;
 				right: 0;
 				bottom: 0;
 				left: 0;
@@ -3656,7 +3652,7 @@
 /* Header */
 
 	body.subpage {
-		padding-top: 3.25em;
+		padding-top: 5em;
 	}
 
 	@-moz-keyframes reveal-header {
